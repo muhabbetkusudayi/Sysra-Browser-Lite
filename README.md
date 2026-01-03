@@ -113,7 +113,7 @@ No nonsense.
 🧑‍💻 Developer
 muhabbetkusudev
 
-GitHub: https://github.com/ydrcoder
+GitHub: https://github.com/muhabbetkusudayi
 Featured under Young Technology category
 
 📄 License
