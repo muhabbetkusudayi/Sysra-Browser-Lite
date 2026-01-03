@@ -70,25 +70,22 @@ bing=https://www.bing.com/search?q=
 yandex=https://yandex.com/search/?text=
 brave=https://search.brave.com/search?q=
 📦 Requirements
-txt
-Kodu kopyala
 PyQt5
 PyQtWebEngine
 deep-translator
 Install dependencies:
 
-bash
-Kodu kopyala
+
 pip install -r requirements.txt
+
 🚀 Run
-bash
-Kodu kopyala
-python main.py
+python sysrabrowser.py
+
 Or with a username:
 
-bash
-Kodu kopyala
-python main.py SysraUser
+
+python sysrabrowser.py SysraUser
+
 🛡️ Privacy & Security
 No tracking
 
@@ -116,13 +113,9 @@ No ads.
 No nonsense.
 
 🧑‍💻 Developer
-Yağızalp Darıcı
-aka muhabbetkusudev
+muhabbetkusudev
 
 GitHub: https://github.com/ydrcoder
-
-Sysra Corporation projects reached 150K+ downloads
-
 Featured under Young Technology category
 
 📄 License
