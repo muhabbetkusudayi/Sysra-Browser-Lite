@@ -1,12 +1,25 @@
 # -*- mode: python ; coding: utf-8 -*-
 
+from PyInstaller.utils.hooks import collect_data_files
+import os
+
+# myapps klasöründeki HER ŞEYİ al
+myapps_datas = [('myapps', 'myapps')]
 
 a = Analysis(
     ['sysrabrowser.py'],
     pathex=[],
     binaries=[],
-    datas=[('sysra_home.html', '.'), ('users.json', '.'), ('icon.png', '.')],
-    hiddenimports=[],
+    datas=[
+        ('sysra_home.html', '.'),
+        ('users.json', '.'),
+        ('icon.png', '.'),
+        *myapps_datas  # 🔥 myapps komple burada
+    ],
+    hiddenimports=[
+        'PyQt5.QtWebEngineWidgets',
+        'PyQt5.QtWebEngineCore'
+    ],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
@@ -14,6 +27,7 @@ a = Analysis(
     noarchive=False,
     optimize=0,
 )
+
 pyz = PYZ(a.pure)
 
 exe = EXE(
