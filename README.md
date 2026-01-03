@@ -57,13 +57,11 @@ Split-screen integration
 Search Engine Configuration
 Edit or create:
 
-txt
-Kodu kopyala
+
 myapps/search_engines.txt
 Example:
 
-txt
-Kodu kopyala
+
 google=https://www.google.com/search?q=
 duckduckgo=https://duckduckgo.com/?q=
 bing=https://www.bing.com/search?q=
