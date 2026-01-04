@@ -1,17 +1,14 @@
 @echo off
-echo ==========================
-echo   Building Sysra Browser
-echo ==========================
+echo =========================
+echo   Building SysraBrowser
+echo =========================
 
-REM Activate virtual environment if exists
-if exist venv\Scripts\activate.bat (
-    call venv\Scripts\activate.bat
-)
+python -m pip install --upgrade pip
+python -m pip install pyinstaller pyqt5 pyqtwebengine
 
-REM Build with PyInstaller using spec file only
-python -m PyInstaller --clean --noconfirm sysrabrowser.spec
+python -m PyInstaller SysraBrowser.spec --clean --noconfirm
 
-echo ==========================
+echo =========================
 echo Build completed!
-echo ==========================
+echo =========================
 pause
