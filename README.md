@@ -5,6 +5,9 @@ It combines a clean browsing experience with built-in tools and a powerful plugi
 
 Fast. Minimal. Hackable.
 
+
+<img width="1188" height="799" alt="image" src="https://github.com/user-attachments/assets/a8f49a96-5407-4ee5-91e1-31347a07eb01" />
+
 ---
 
 ## ✨ Features
@@ -95,7 +98,6 @@ All notes stored locally
 
 Camera & microphone permissions are controlled by the WebEngine
 
-<img width="1188" height="799" alt="image" src="https://github.com/user-attachments/assets/570e4698-0d36-4d7b-9d33-3294e65636bd" />
 
 
 🧠 Philosophy
