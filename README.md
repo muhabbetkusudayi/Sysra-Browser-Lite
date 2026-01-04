@@ -1,4 +1,4 @@
-# 🌐 Sysra Browser Lite 4.0
+# 🌐 Sysra Browser Lite 5.0
 
 **Sysra Browser Lite** is a lightweight, modular desktop browser built with **Python + PyQt5**.  
 It combines a clean browsing experience with built-in tools and a powerful plugin system.
