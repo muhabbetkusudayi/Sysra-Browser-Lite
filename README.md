@@ -1,128 +1,61 @@
-# 🌐 Sysra Browser Lite 5.0
+# 🚀 Sysra Browser Lite v6.0 Pro
+### 🎂 4th Year Anniversary Edition (2022 - 2026)
 
-**Sysra Browser Lite** is a lightweight, modular desktop browser built with **Python + PyQt5**.  
-It combines a clean browsing experience with built-in tools and a powerful plugin system.
+![Python](https://img.shields.io/badge/Python-3.7%2B-blue?style=for-the-badge&logo=python)
+![PyQt5](https://img.shields.io/badge/PyQt5-Framework-green?style=for-the-badge&logo=qt)
+![Status](https://img.shields.io/badge/Version-6.0_Pro-orange?style=for-the-badge)
 
-Fast. Minimal. Hackable.
-
-
-<img width="1200" height="799" alt="image" src="https://github.com/user-attachments/assets/aa60a39d-d88e-4f2d-8db0-8f0d9579e620" />
-
+**Sysra Browser Lite** celebrates its **4th Anniversary** on January 11, 2026! Over four years of evolution, we have refined the core engine to deliver a browsing experience that is fast, modular, and completely customizable.
 
 ---
 
-## ✨ Features
+## ✨ v6.0 Pro Key Features
 
-- 🧭 **Multi-tab Web Browser** (PyQt5 WebEngine)
-- 🧩 **Plugin System** (drop-in Python apps)
-- 🌐 **Built-in Translator** (Google Translate)
-- 📝 **Notes Manager** (local, offline)
-- 🧮 **Calculator**
-- ⬇️ **Download Manager**
-- 🚫 **Blocked Websites System**
-- 🪟 **Split Screen Layout** (Browser + Tools)
-- ⚡ **Low resource usage**
+* **🎂 Anniversary Special:** Optimized rendering engine and enhanced stability to mark four years of development.
+* **🏠 Custom Home Interface:** Automatically loads your personalized `sysra_home.html` on startup and for every new tab.
+* **🛠️ Modular Sidebar (Plugin System):**
+    * **History:** Real-time tracking and management of your browsing journey.
+    * **Translator:** Seamless text translation integrated directly via Google Translate API.
+    * **Calculator:** Perform complex math operations without leaving your tab.
+    * **Notes:** A built-in scratchpad for saving persistent quick notes.
+    * **My Apps:** Run custom Python scripts from the `/myapps` folder as integrated modules.
+* **🎨 Ultra-Smooth UI:** A sleek, dark-themed design with rounded corners, modern navigation symbols (←, →, ↻, ⌂), and high-contrast white text.
+* **📥 Download Manager:** Monitor active downloads and view completion logs in the dedicated sidebar tab.
+* **🔧 Web Rendering Fix:** Pre-configured `QWebEngineSettings` to ensure CSS, JavaScript, and remote assets load perfectly on all websites.
 
 ---
 
-## 🧩 Plugin System
+## 🚀 Installation & Getting Started
 
-Sysra Browser Lite supports **custom Python plugins**.
+### 1. Install Dependencies
+Ensure you have Python installed, then run:
 
-Each plugin:
-- Lives inside the `myapps/` folder
-- Is written in pure Python
-- Must expose an `AppWidget(QWidget)` class
+pip install PyQt5 PyQtWebEngine deep-translator
+2. File Structure
+Keep your directory organized as follows:
 
-### Example Plugin
-```python
-from PyQt5.QtWidgets import QWidget, QLabel, QVBoxLayout
+sysrabrowser.py (Main application script)
 
-class AppWidget(QWidget):
-    def __init__(self):
-        super().__init__()
-        layout = QVBoxLayout()
-        layout.addWidget(QLabel("Hello Sysra!"))
-        self.setLayout(layout)
-Plugins appear automatically inside the My Apps panel.
+sysra_home.html (Your local homepage file)
 
-🔍 AnotherBrowser Plugin
-AnotherBrowser is a mini browser plugin with a configurable search engine system.
+icon.ico (The official application icon)
 
-Features
-Embedded browser (QWebEngineView)
+/myapps/ (Directory for your custom Python plugins)
 
-Custom search engines
-
-Engine selection via dropdown
-
-Split-screen integration
-
-Search Engine Configuration
-Edit or create:
+Packaging (Compile to EXE)
+To create a package of your ultimate browser, just open build.bat
 
 
-myapps/search_engines.txt
-Example:
+Milestones
+January 11, 2022: Initial launch of SyWeb Chrome v1.0
 
+2024 February: Introducion of SyWeb Pro
 
-google=https://www.google.com/search?q=
-duckduckgo=https://duckduckgo.com/?q=
-bing=https://www.bing.com/search?q=
-yandex=https://yandex.com/search/?text=
-brave=https://search.brave.com/search?q=
-📦 Requirements
-PyQt5
-PyQtWebEngine
-deep-translator
-Install dependencies:
+January 4, 2025: Changed name to Sysra Browser Lite.
 
+January 11, 2026: 4th Anniversary official release of v6.0.
 
-pip install -r requirements.txt
+License
+This project is open-source and provided for personal use and community development.
 
-🚀 Run
-python sysrabrowser.py
-
-Or with a username:
-
-
-python sysrabrowser.py SysraUser
-
-🛡️ Privacy & Security
-No tracking
-
-No telemetry
-
-No cloud sync
-
-All notes stored locally
-
-Camera & microphone permissions are controlled by the WebEngine
-
-
-
-🧠 Philosophy
-Sysra Browser Lite is built for:
-
-Students
-
-Developers
-
-Power users
-
-People who want control
-
-No bloat.
-No ads.
-No nonsense.
-
-🧑‍💻 Developer
-muhabbetkusudev
-
-GitHub: https://github.com/muhabbetkusudayi
-Featured under Young Technology category
-
-📄 License
-Open Source – use it, modify it, break it, improve it.
-
-Just don’t sell the soul.
+Sysra Browser Lite - Be creative and private.
