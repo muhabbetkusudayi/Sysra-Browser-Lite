@@ -4,6 +4,8 @@
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue?style=for-the-badge&logo=python)
 ![PyQt5](https://img.shields.io/badge/PyQt5-Framework-green?style=for-the-badge&logo=qt)
 ![Status](https://img.shields.io/badge/Version-6.0_Pro-orange?style=for-the-badge)
+![Sysra](https://img.shields.io/badge/welove-sysra-green)
+
 
 **Sysra Browser Lite** celebrates its **4th Anniversary** on January 11, 2026! Over four years of evolution, we have refined the core engine to deliver a browsing experience that is fast, modular, and completely customizable.
 
@@ -25,13 +27,9 @@
 
 ---
 
-## 🚀 Installation & Getting Started
+## Installation & Getting Started
 
-### 1. Install Dependencies
-Ensure you have Python installed, then run:
-
-pip install PyQt5 PyQtWebEngine deep-translator
-2. File Structure
+**2. File Structure**
 Keep your directory organized as follows:
 
 sysrabrowser.py (Main application script)
@@ -42,11 +40,14 @@ icon.ico (The official application icon)
 
 /myapps/ (Directory for your custom Python plugins)
 
-Packaging (Compile to EXE)
+
+## Package your masterpiece.
 To create a package of your ultimate browser, just open build.bat
 
 
-Milestones
+
+## Milestones
+
 January 11, 2022: Initial launch of SyWeb Chrome v1.0
 
 2024 February: Introducion of SyWeb Pro
@@ -55,7 +56,7 @@ January 4, 2025: Changed name to Sysra Browser Lite.
 
 January 11, 2026: 4th Anniversary official release of v6.0.
 
-License
+## License
 This project is open-source and provided for personal use and community development.
 
 Sysra Browser Lite - Be creative and private.
